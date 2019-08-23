@@ -23,4 +23,16 @@
 ---->解决冲突问题 并add，commit
 ---->git push --setupstream origin[远程仓库名字] feature/2019/8/21[远程分支名]
 ```
+#### 2. 在错误的分支上提交了代码
 
+```
+/**
+*如果我们在错误的分支上提交了代码，可以切换到正确的分支上，
+*使用git cherry-pick [commitid]把已经提交的内容添加到
+*正确分支的提交历史中去，代替手工粘贴复制
+*/
+---->（errorBranch）git log
+---->commitid 5c18e334dc41323f0377aece12d086080757b1fa
+---->git checkout correctBranch
+---->(correctBranch) git cherry-pick  5c18e334dc41323f0377aece12d086080757b1fa
+```

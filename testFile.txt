@@ -1,4 +1,5 @@
 1.2019/8/21 16:12 创建分支develop
 2.2019/8/21 16:21 写了这句话，提交到远程仓库的develop分支
 3.2019/8/21 18:01 创建了feature/20180821分支
-
+4.2019/8/23 15:13    want to learn git cli about how to use cherry-pick
+5.2019/8/23 18:10    rebase with orign/develop
